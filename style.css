@@ -82,6 +82,7 @@ form {
     border: none;
     background-color: #F3F3F3;
     padding: 8px;
+    border-radius: 6px;
 }
 
 .esqueceu-senha {
@@ -102,7 +103,7 @@ form {
     margin: 10px;
 }
 
-.logar:hover {
+.botao:hover {
     background-color: var(--primary-color);
     color:#FFFFFF
 }

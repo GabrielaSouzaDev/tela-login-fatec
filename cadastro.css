@@ -87,6 +87,7 @@ form {
     border: none;
     background-color: #F3F3F3;
     padding: 8px;
+    border-radius: 6px;
 }
 
 .botao {
