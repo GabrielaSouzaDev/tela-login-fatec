@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3ba5d0a0fa.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tela Login - Fatec</title>
 </head>
+
 <body>
     <main>
-        <h3>Fatec</h3>
+        <h3>Entrar com</h3>
 
         <div class="icones-redes">
-            <a href="#"
-            ><img src="./images/Facebook.svg" alt="Facebook">
-            </a>
             <a href="#">
-                <img src="./images/Google.svg" alt="Google">
+            <i class="fa-brands fa-facebook-f"></i>
             </a>
+
+            <a href="#">
+                <i class="fa-brands fa-google"></i>
+            </a>
+
             <a href="a">
-                <img src="./images/Linkedin.svg" alt="Linkedin">
+                <i class="fa-brands fa-linkedin-in"></i>
             </a>
         </div>
         
@@ -28,18 +40,17 @@
             <input type="text" placeholder="Senha">
         </form>
         
-        <p class="texto-esqueceu-senha">Esqueceu a senha?</p>
+        <a class="esqueceu-senha" href="#">Esqueceu a senha?</p>
         
-        <a href="#">Logar</a>
+        <a class="logar" href="#">LOGAR</a>
         
-        <div>
+        <div class="registro">
             <p class="criar-conta">Não tem conta? </p>
-            <a href="#"><strong>Registre-se</strong></a>
+            <a class="registrar" href="#"><strong>Registre-se</strong></a>
         </div>
         
     </main>
     
-
-    
 </body>
+
 </html>
