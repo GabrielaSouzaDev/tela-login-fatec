@@ -89,7 +89,7 @@ form {
     margin: 10px;
 }
 
-.logar {
+.botao {
     background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
