@@ -115,3 +115,24 @@ form {
     margin: 20px;
 }
 
+@media (min-width: 700px) {
+    body {
+        height: 100vh;
+        margin: 0 180px;
+        align-items: flex-start;
+        background-image: url(./images/Estudantes.png);
+        background-repeat: no-repeat;
+        background-position: 690px;
+    }
+
+    main {
+        border: #FF3131 solid 1px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .botao {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

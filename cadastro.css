@@ -117,3 +117,36 @@ form {
     gap: 8px;
     margin: 20px;
 }
+
+@media (min-width: 700px) {
+    body {
+        background-color: white;
+        height: 100vh;
+        margin: 0 160px;
+        align-items:flex-end;
+        background-image: url(./images/Estudantes_Cadastro.png);
+        background-repeat: no-repeat;
+        background-position: 160px;
+        color: #000000;
+    }
+
+    main {
+        background-color: #ff313130;
+        border: #ff31314c solid 1px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao {
+        border: none;
+        background-color: #F3F3F3;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao:hover {
+        background-color: var(--primary-color);
+        color: #FFFFFF;
+    }
+    
+}
